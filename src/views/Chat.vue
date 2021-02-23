@@ -66,7 +66,7 @@
 	import { chatMessage, getChat } from '@/api/server';
 	export default {
 		data() {
-      return {
+			return {
 				connect: false,
 				message: '',
 				socket: {},
