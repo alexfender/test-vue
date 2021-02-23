@@ -16,7 +16,7 @@
       <br />
       Чат:
       <div class="chat_block" id="block">
-        <div class="chat_item" v-for="item in chat">
+        <div class="chat_item" v-for="item in chat" :key="item.id">
           <div v-if="ifMe(item.userId)" class="right">
             <div class="message">
               <div class="username">
